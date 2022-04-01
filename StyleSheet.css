@@ -1,0 +1,121 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-weight: 700;
+    
+}
+
+.main {
+    background-image: url('tetris.png');
+    background-color: #111111;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 95% auto;
+    position: flex;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+.topnav a.active {
+    background-color: white;
+    color: blue;
+
+}
+.topnav-right {
+    float: right;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+.wrapper {
+    text-align: center;
+    background-color: grey;
+    position: fixed center;
+    border: 30px grey ;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ; 
+  }
+
+.button {
+    justify-content: center;
+    position: fixed center;
+    text-align: center;
+
+  }
+
+.form {   
+    border: 30px solid #f1f1f1;   
+    text-align: center;
+    display: inline;
+    
+  } 
+
+.box {
+    background-color: #c7c7c7;
+    border-width: 0;
+    border-radius: 5vw;
+    box-shadow: 5px 5px 5px;
+    padding: 15%;
+    
+    
+}
+
+.daddybox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25%;
+
+}
+
+#tetris-bg {
+    background-image: url('tetris-grid-bg.png');
+    height: 600px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+
+}
+
+#leaderboard {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid;
+}
+
+#leaderboard th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    background-color: blue;
+    color: white;
+
+}
+    
